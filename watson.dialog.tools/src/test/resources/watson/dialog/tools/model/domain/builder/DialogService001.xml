@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="WatsonDialogDocument_1.0.xsd">
+  <flow>
+    <folder label="Main" id="Main"/>
+    <folder label="Library" id="Library"/>
+    <folder label="Global" id="Global"/>
+    <folder label="Concepts" id="Concepts"/>
+  </flow>
+  <entities/>
+  <variables>
+    <var_folder name="Home"/>
+  </variables>
+  <settings/>
+</dialog>

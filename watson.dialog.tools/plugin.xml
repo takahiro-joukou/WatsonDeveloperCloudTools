@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="Watson Dialog Service Editor"
+            extensions="xml"
+            icon="icons/dialog_wizard.png"
+            class="watson.dialog.tools.editor.WatsonDialogServiceEditor"
+            id="watson.dialog.tools.editor.WatsonDialogServiceEditor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="Watson"
+            id="watson.dialog.tools">
+      </category>
+      <wizard
+            name="Watson Dialog Service"
+            icon="icons/dialog_wizard.png"
+            category="watson.dialog.tools"
+            class="watson.dialog.tools.wizard.CreateNewFileWizard"
+            id="watson.dialog.tools.wizard.CreateNewFileWizard">
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="watson.dialog.tools.editor.preference.WatsonDialogServicePrefInitializer">
+      </initializer>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="watson.dialog.tools.editor.preference.WatsonDialogServicePrefPage"
+            id="watson.dialog.tools.editor.preference.WatsonDialogPrefPage"
+            name="Watson Dialog">
+      </page>
+   </extension>
+
+</plugin>
