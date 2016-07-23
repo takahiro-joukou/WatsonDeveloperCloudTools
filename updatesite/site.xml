@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature url="features/watson.developer.cloud.tools_1.0.0.201607231834.jar" id="watson.developer.cloud.tools" version="1.0.0.201607231834"/>
-   <category-def name="watson.developer.cloud.tools" label="Watson Developer Cloud Tools"/>
-</site>
