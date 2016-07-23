@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/watson.developer.cloud.tools_1.0.0.201607231032.jar" id="watson.developer.cloud.tools" version="1.0.0.201607231032"/>
+</site>
