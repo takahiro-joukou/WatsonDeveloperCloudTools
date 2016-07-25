@@ -6,7 +6,7 @@ IBM BlueMix で利用可能な Watson API の開発のための Tool です．Di
 Eclipse Plugin として開発しています．
 以下のリンク先から jar ファイルをダウンロードして，Eclipse の dropins ディレクトリにコピーしてください．Eclipse を再起動すればインストールは完了です．
 
-released jar file(Preview version) : [watson.dialog.tools_1.0.0.201607231834.jar](http://takahiro-joukou.github.io/WatsonDeveloperCloudTools/documents/jars/watson.dialog.tools_1.0.0.201607231834.jar "download plugin jars")
+released jar file(Preview version) : [watson.dialog.tools_1.0.0.201607251008.jar](http://takahiro-joukou.github.io/WatsonDeveloperCloudTools/documents/jars/watson.dialog.tools_1.0.0.201607251008.jar "download plugin jars")
 
 ## How to use it
 ### Edit Dialog Page
