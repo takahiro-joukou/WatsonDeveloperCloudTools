@@ -353,7 +353,8 @@ public class WatsonDialogServiceRunPage extends FormPage {
 
     if (ret == Window.OK) {
       try {
-        Dialog dialog = service.createDialog(input.getValue(), file);
+        name = input.getValue();
+        Dialog dialog = service.createDialog(name, file);
         dialog.setName(name);
 
         @SuppressWarnings("unchecked")
